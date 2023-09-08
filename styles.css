@@ -34,6 +34,7 @@ body {
   position: relative;
 }
 .profile-photo img {
+  background: #000;
   /* height: calc(100vh - 60px); */
   position: absolute;
   top: 50%;
