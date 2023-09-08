@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #1b1a1a;
+}
+
+.opacity {
+  font-size: 90px;
+  font-weight: bolder;
+  position: absolute;
+  color: #363636;
+  margin-left: 480px;
+  margin-top: -150px;
+  opacity: 50%;
+}
+
+.on-top {
+  /* margin-top: 50px; */
+  /* text-align: center; */
+  color: #fff;
+  font-size: 60px;
+  position: absolute;
+  margin-left: 495px;
+  margin-top: -132px;
+}
+
+.on-top span {
+  color: #ffb400;
+  font-size: 60px;
+}
+
+.about-container {
+  margin-top: 200px;
+}
+
+.infinity {
+  position: absolute;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 4px;
+  background-color: #fff;
+  top: 30%;
+  position: fixed;
+}
+
+.infinity svg {
+  background-color: #fff;
+  animation: spin 3s infinite linear;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.line {
+  border-bottom: 10px solid #ffb400;
+  width: 328px;
+  margin-top: -5px;
+}
+
+.image-blog,
+.image-blog2,
+.image-blog3 {
+  padding: 20px;
+  padding-bottom: 30px;
+}
+
+.image1 {
+  margin-bottom: 30px;
+}
+
+.image-write {
+  background-color: #3c3c3c;
+  border-bottom-right-radius: 8px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.image-write h3 {
+  color: #fff;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.image-write p {
+  color: #fff;
+  margin-bottom: 30px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.middle-everything {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.overall-image-blog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+  margin: auto;
+}
+
+/* ICONS */
+
+.right {
+  margin-top: -350px;
+  margin-right: 25px;
+}
+
+.right .icon1 {
+  border: none;
+  padding: 5px 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 55%;
+  background-color: #3c3c3c52;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.icon1 a {
+  color: #fff;
+  background-color: #3c3c3c52;
+}
+
+.icon1 svg {
+  margin-top: 3px;
+  background-color: #3c3c3c52;
+}
+
+.right .icon2 {
+  border: none;
+  padding: 5px 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 55%;
+  background-color: #3c3c3c52;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.icon2 a {
+  color: #fff;
+  background-color: #3c3c3c52;
+}
+
+.icon2 svg {
+  margin-top: 3px;
+  background-color: #3c3c3c52;
+}
+/*  */
+
+.right .icon3 {
+  border: none;
+  padding: 5px 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 55%;
+  background-color: #3c3c3c52;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.icon3 a {
+  color: #fff;
+  background-color: #3c3c3c52;
+}
+
+.icon3 svg {
+  margin-top: 3px;
+  background-color: #3c3c3c52;
+}
+
+/* switch */
+
+.right .icon4 {
+  border: none;
+  padding: 5px 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 55%;
+  background-color: #3c3c3c52;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.icon4 a {
+  color: #fff;
+  background-color: #3c3c3c52;
+}
+
+.icon4 svg {
+  margin-top: 3px;
+  background-color: #3c3c3c52;
+}
+
+.right .icon5 {
+  border: none;
+  padding: 5px 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 55%;
+  background-color: #ffb400;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.icon5 a {
+  color: #fff;
+  background-color: #ffb400;
+}
+
+.icon5 svg {
+  margin-top: 3px;
+  background-color: #ffb400;
+}
+
+nav {
+  /* border: 2px solid #fff; */
+  width: 150px;
+  height: 100vh;
+}
+
+nav ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  list-style: none;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+nav ul li a {
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 0 12px;
+  gap: 12px;
+  overflow: hidden;
+  transition: width 0.3s;
+}
+
+nav ul li a i {
+  font-size: 18px;
+}
+
+nav ul li a p {
+  font-size: 14px;
+}
+
+ul li a:hover {
+  width: fit-content;
+  overflow: visible;
+  background-color: #ffb400;
+}
